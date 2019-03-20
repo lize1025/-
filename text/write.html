@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/write.css">
+</head>
+<header>
+        <div class="top">
+                <div class="logo">APIS</div>
+                <div class="xian"></div>
+                <div class="title">阅读项目</div>
+                <div class="user">1</div>
+                <span class="user_id">德玛</span>
+                <div class="more">
+                    <img src="./img/icon_arrow_up.png" alt="">
+                </div>
+                <div class="write_img">
+                    <img src="./img/icon_write.png" alt="">
+                </div>
+                <div class="write">
+                    <span onclick="add();">发表文章</span>
+                </div>
+        </div>
+</header>
+<body>
+    <div class="main">
+        <div class="camera">
+            <img src="./img/icon_camrea.png" alt="" class="icon">
+            <input type="file" class="file">
+            <img src="" alt=""  class="imgs">
+            <span>请上传封面，支持3MB以内的JPG\PNG图片。</span>
+        </div>
+        <div class="title">
+            <input type="text" placeholder="请输入标题" class="tit">
+        </div>
+        <div class="line"></div>
+        <div class="content">
+            <textarea name="" id="" cols="30" rows="10" placeholder="请输入正文" class="body"></textarea>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+        <div class="lines"></div>
+        <div class="write">Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3</div>
+</footer>
+<script src="./js/write.js"></script>
+</html>

@@ -1,0 +1,297 @@
+*{margin:0;padding:0}
+body{
+    position: relative;
+}
+header{
+    height:atuo;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.top{
+    height: 60px;
+    width: 100%px;
+    position: relative;
+    background-color: rgba(127,74,136);
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.20);
+}
+.top>.logo{ 
+    height: 26px;
+    width: 78px;
+    color: white;
+    position: absolute;
+    left: 2.7%;
+    top:25%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+}
+.top>.xian{
+    border: 0.5px solid #FFFFFF;
+    height: 24px;
+    position: absolute;
+    left: 9%;
+    top: 32%;
+}
+.top>.title{
+    height: 33px;
+    width: 109px;
+    position: absolute;
+    left: 10.4%;
+    top: 24%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.top>.user{
+    position: absolute;
+    left: 80%;
+    top: 35%;
+    position: relative;
+}
+.top>.user>img{
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -5px;
+    
+}
+.top>.user_id{
+    position: absolute;
+    left: 82%;
+    top: 33%;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.top>.more{
+    position: absolute;
+    left: 86%;
+    top: 36%;
+}
+.top>.write{
+    position: absolute;
+    left: 92.8%;
+    top: 32%;
+}
+.top>.write_img{
+    position: absolute;
+    left: 91%;
+    top: 35%;
+}
+.top>.write>span{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;  
+}
+.setting{
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.10);
+    width: 109px;
+    height: 129px;
+    position: absolute;
+    left: 80.5%;
+    top: 7.7%;
+    text-align: center;
+    line-height: 41px;
+    display: none;
+    cursor: pointer;
+}
+.setting>.center>span,.setting>.settings>span,.setting>.quit>span{
+    vertical-align: middle;
+}
+.setting>.center>img,.setting>.settings>img,.setting>.quit>img{
+    vertical-align: middle;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-width:0 6px 6px;
+    border-style:solid;
+    border-color:transparent transparent #fff;/*透明 透明  灰*/
+    position: absolute;
+    left: 86%;
+    top: 6.9%;
+    display: none;
+
+}
+.main{
+    margin: 0 auto;
+    position: relative;
+    width: 46%;
+    height: auto;
+}
+.main>.title{
+    margin-top: 55px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.line{
+    opacity: 0.7;
+    border: 1px solid #7F4A88;
+    width: 100%;
+    margin-top: 15px;
+}
+.main>.content{
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.05);
+    border-radius: 15px;
+    width: 100%;
+    height: 430px;
+    margin-top: 30px;
+    position: relative;
+}
+.main>.content>.user{
+    position: absolute;
+    left: 8%;
+    top: 10%;
+}
+.main>.content>.user>.user_img>.imgs{
+    width: 50px;
+    height: 50px;
+
+    background: #000000;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: -11px;
+}
+.main>.content>.user>input{
+    width: 50px;
+    height: 50px;
+    opacity: 0.0;
+    background: #000000;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: -11px;
+    z-index: 999;
+}
+.main>.content>.user>.more{
+    font-size: 8px;    
+    position: absolute;
+    left: 64px;
+    top: 6px;
+    width: 60px;
+}
+
+.main>.content>.user_name{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.main>.content>.user_name>span,.main>.content>.user>span,.main>.content>.user_sex>span,.main>.content>.user_con>span,.main>.content>.user_city>span{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.content>.user_name>input{
+    margin-left: 25px;
+    border: 1px solid rgba(34, 38, 41, 0.2);
+    border-radius: 4px;
+    width: 220px;
+    height: 36px;
+}
+input::-webkit-input-placeholder{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #222629;
+    letter-spacing: 0;
+    text-indent: 1em;
+}
+.main>.content>.user_sex{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.main>.content>.user_sex>img{
+    margin-left: 25px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1F2D3D;
+    letter-spacing: 0;
+    line-height: 14px;
+}   
+.main>.content>.user_sex>.boy{
+    position: absolute;
+    top:-1px;
+}
+.main>.content>.user_sex>.girl{
+    position: absolute;
+    top:-1px;
+    left: 130px;
+}
+.main>.content>.user_con{
+    position: absolute;
+    top: 52%;
+    left: 8%;
+}
+.main>.content>.user_con>select{
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 38, 41, 0.2);
+    border-radius: 4px;
+    width: 220px;
+    height: 36px;
+    margin-left: 25px;
+}
+.main>.content>.user_city{
+    position: absolute;
+    top: 68%;
+    left: 8%;
+}
+.main>.content>.user_city>select{
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 38, 41, 0.2);
+    border-radius: 4px;
+    width: 150px;
+    height: 36px;
+    margin-left: 25px;
+}
+.main>.content>.passworld{
+    position: absolute;
+    top: 84%;
+    left: 8%;
+}
+.main>.content>.passworld>button{
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 38, 41, 0.2);
+    border-radius: 4px;
+    width: 80px;
+    height: 20px;
+    margin-left: 25px;
+}
+.main>.content>.keep{
+    position: absolute;
+    top: 92%;
+    left: 45%;
+    background: rgba(0, 0, 0, .5);
+    width: 10%;
+}
+
+footer{
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+footer>.lines{
+    border: 0.5px solid #7F4A88;  
+}
+footer>.write{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

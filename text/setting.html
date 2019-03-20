@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/setting.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+                <div class="logo">APIS</div>
+                <div class="xian"></div>
+                <div class="title">阅读项目</div>
+                <div class="user">
+                    <img src="" alt="" class="uimg">
+                </div>
+                <span class="user_id"></span>
+                <div class="more" >
+                    <img src="./img/icon_arrow_down.png" alt="" class="up" onclick="setting();">
+                </div>
+                <div class="write_img">
+                    <img src="./img/icon_write.png" alt="">
+                </div>
+                <div class="write">
+                    <span>写文章</span>
+                </div>
+        </div>
+    </header>
+    <div class="triangle"></div>
+    <div class="setting">
+        <div class="center" onclick="user();">
+            <img src="./img/icon_user.png" alt="">
+            <span>个人中心</span>
+        </div>
+        <div class="settings" onclick="set();">
+            <img src="./img/icon_setting.png" alt="">
+            <span>账户设置</span>
+        </div>
+        <div class="quit" onclick="exit();">
+            <img src="./img/icon_exit.png" alt="">
+            <span>退出登录</span>
+        </div>                    
+    </div>
+        <div class="main">
+            <div class="title">账户设置</div>
+            <div class="line"></div>
+            <div class="content">
+                <div class="user">
+                    <span>头像:</span>
+                    <div class="user_img">
+                        <img src="./img/bg_signin.jpg" height="200" class="imgs">
+                    </div>
+                   <input type="file" class="file">
+                   <span class="more">上传头像</span>
+                </div>
+                <div class="user_name">
+                    <span>昵称:</span>
+                    <input type="text" placeholder="德玛西亚" id="name">
+                </div>
+                <div class="user_sex">
+                    <span>性别:</span>
+                    <img src="./img/icon_unchoose.png" alt="" onclick="man();" class="man">
+                    <span class="boy">男</span> 
+                    <img src="./img/icon_choose.png" alt="" onclick="woman();" class="woman">
+                    <span class="girl">女</span>
+                </div>
+                <div class="user_con">
+                    <span>星座:</span>
+                    <select name="" id="constel" >
+                        <option value ="0">请选择星座</option>
+                    </select>
+                </div>
+                <div class="user_city">
+                    <span>城市:</span>
+                    <select id="province" onchange="provinceId()">
+                        <option value="1">请选择省份</option>
+                    </select>
+                    <select id="city" onchange="city()">
+                        <option value="2">请选择城市</option>
+                    </select>
+                    <select id="area">
+                        <option value="3">请选择区</option>
+                    </select>
+                    
+                </div>
+                <div class="passworld">
+                    <span>密码</span>
+                    <button onclick="reset();">修改密码</button>
+                </div>
+                <button class="keep" onclick="profile();">保存</button>
+            </div>
+        </div>
+</body>
+<footer class="footer">
+        <div class="lines"></div>
+        <div class="write">Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3</div>
+    </footer>
+    <script src="./js/setting.js"></script>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/details.css">
+</head>
+<header>
+    <div class="top">
+            <div class="logo">APIS</div>
+            <div class="xian"></div>
+            <div class="title">阅读项目</div>
+            <div class="user">
+                <img src="" alt="" class="uimg">
+            </div>
+            <span class="user_id"></span>
+            <div class="more" >
+                <img src="./img/icon_arrow_down.png" alt="" class="up" onclick="setting();">
+            </div>
+            <div class="write_img">
+                <img src="./img/icon_write.png" alt="">
+            </div>
+            <div class="write">
+                <span>写文章</span>
+            </div>
+    </div>
+</header>
+<body>
+    <div class="triangle"></div>
+    <div class="setting">
+        <div class="center" onclick="user();">
+            <img src="./img/icon_user.png" alt="">
+            <span>个人中心</span>
+        </div>
+        <div class="settings" onclick="set();">
+            <img src="./img/icon_setting.png" alt="">
+            <span>账户设置</span>
+        </div>
+        <div class="quit" onclick="exit();">
+            <img src="./img/icon_exit.png" alt="">
+            <span>退出登录</span>
+        </div>                    
+    </div>
+<div class="all">
+        <!-- <div class="main">
+             <div class="title">
+                 <span>首设“虚拟站点”，滴滴小巴正式上线</span>
+                <div class="share">
+                    <img src="./img/icon_share.png" alt="" class="title_img">
+                    <span>分享</span>
+                </div>
+             </div>
+             <div class="give">
+                     <div class="give_left">
+                        <img src=" " alt="" class="give_img">
+                        <span class="give_username">德玛</span>
+                        <span class="give_time">06:00</span>
+                        <img src="./img/icon_thumb_up.png" alt="" class="thumb">
+                        <span class="thumb_number">66</span>
+                        <img src="./img/icon_saw.png" alt="" class="saw">
+                        <span class="saw_number">999</span>
+                    </div>
+            </div>
+            <div class="photo">
+                <img src="./img/bg_signin.jpg" alt="">
+            </div>
+            <div class="keynote">
+                    介夫子消息，12月15日滴滴小巴业务正式上线，产品首期已在北京、成都部分区域开通。开通地区的用户可通过手机客户端滴滴出行来呼叫小巴，小巴会智能计算乘客上车点和下车点，乘客选择确认后，就会通知用户和小巴“约会”的时间和地点。
+            </div>
+            <div class="content">
+                    滴滴出行高级产品总监罗文介绍，“用户出行需求分门别类，通过技术手段可以实现对整体用户的出行需求进行细分和聚类管理，实现价格浮动、路线浮动，小巴就是这样一个产品。”
+
+                    “例如用户从地铁站出来，对去往相同方向的乘客进行聚集，让他们搭乘同一辆车出行，但价格可能不一样，路线也是动态的。基于滴滴的人工智能技术，智能小巴保障了用户体验，也实现了城市整体的高效出行。”
+              
+                     滴滴小巴具有智能计价、虚拟站点以及最优路径规划等功能。“根据站点、线路、时间以及实时供需等30多个影响因素进行智能报价，线路热度越高，分摊成本越少，让5元内专座出行成为可能。”
+              
+                     滴滴小巴还将顺路用户聚集到同一个上车点，即虚拟站点。基于滴滴大数据，通过热力图挖掘出高覆盖、密集的上车点。据悉，所有虚拟站点的设立都要求易于车辆停靠，并且易于乘客找到。
+              
+                     “无固定路线也是我们产品的特色，是完全按需的出行产品，根据需求规划路径不断引导车辆行驶，当有用户叫车时，滴滴小巴会根据需求智能计算路径，在体验范围内进行最优供需匹配，动态调整路线。”小巴产品负责人说。
+              
+                     该负责人称，“小巴业务的乘客上车效率达到30~40秒，司乘按照平台引导至指定站点碰头，无需提前电话沟通，简化了司乘双方的沟通流程，降低沟通和等待的时间成本。”
+              
+                     滴滴小巴目前开通的区域包括北五环及以北区域，新增的区域包括天通苑、清河、霍营、西二旗、上地等。
+              
+                     根据资料显示，滴滴小巴是滴滴的首个区域内短途出行产品，主要瞄准的是周边有地铁但距离地铁较远的地区，其运营的片区中汇集了大量公司，百度、联想、中关村软件园等都居于其中。主要解决的是用户的短途出行需求，例如从地铁、超市到小区，从地铁到公司等。
+              
+                     滴滴内部人士表示，目前滴滴小巴的车辆多为5-7座的商务车，车辆则是由汽车租赁公司提供，并非自营车辆。
+            </div>
+            <div class="line"></div>
+            <div class="comment_title">文章点评</div>
+            <textarea name="" id="" cols="30" rows="10" class="comment" placeholder="我有话要说..."></textarea>
+            <button class="get">提交</button>
+            <div class="comment_titles">最近评论</div>
+            <div class="lines"></div>
+            <div class="give">
+                    <div class="give_left">
+                       <img src=" " alt="" class="give_img">
+                       <span class="give_username">德玛</span>
+                       <span class="give_time">06:00</span>
+                       <img src="./img/icon_thumb_up.png" alt="" class="thumb">
+                       <span class="thumb_number">66</span>
+                   </div>
+                   <div class="give_comment">添加一个打赏功能啊，文章报道的很好，很想打赏！</div>
+           </div>
+            <div class="linese"></div>
+        </div> -->
+        <div class="loading">
+                <img src="./img/icon_loading.png" alt="">
+                <span>正在加载</span>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+        <div class="lines"></div>
+        <div class="write">
+                Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3
+        </div>
+</footer>
+<script src="./js/details.js"></script>
+</html>

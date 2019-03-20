@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.all{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+header{
+    height:atuo;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.top{
+    height: 60px;
+    width: 100%px;
+    position: relative;
+    background-color: rgba(127,74,136);
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.20);
+}
+.top>.logo{ 
+    height: 26px;
+    width: 78px;
+    color: white;
+    position: absolute;
+    left: 2.7%;
+    top:25%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+}
+.top>.xian{
+    border: 0.5px solid #FFFFFF;
+    height: 24px;
+    position: absolute;
+    left: 9%;
+    top: 32%;
+}
+.top>.title{
+    height: 33px;
+    width: 109px;
+    position: absolute;
+    left: 10.4%;
+    top: 24%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.top>.user{
+    position: absolute;
+    left: 80%;
+    top: 35%;
+    position: relative;
+}
+.top>.user>img{
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -5px;
+    
+}
+.top>.user_id{
+    position: absolute;
+    left: 82%;
+    top: 33%;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.top>.more{
+    position: absolute;
+    left: 86%;
+    top: 36%;
+}
+.top>.write{
+    position: absolute;
+    left: 92.8%;
+    top: 32%;
+}
+.top>.write_img{
+    position: absolute;
+    left: 91%;
+    top: 35%;
+}
+.top>.write>span{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;  
+}
+.setting{
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.10);
+    width: 109px;
+    height: 129px;
+    position: absolute;
+    left: 80.5%;
+    text-align: center;
+    line-height: 41px;
+    display: none;
+    cursor: pointer;
+}
+.setting>.center>span,.setting>.settings>span,.setting>.quit>span{
+    vertical-align: middle;
+}
+.setting>.center>img,.setting>.settings>img,.setting>.quit>img{
+    vertical-align: middle;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-width:0 6px 6px;
+    border-style:solid;
+    border-color:transparent transparent #fff;/*透明 透明  灰*/
+    position: absolute;
+    left: 86%;
+    top: 6.9%;
+    display: none;
+}
+.main{
+    width:63%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.main>.title{
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    font-size: 18px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.title>.span{
+    width: auto;
+}
+.main>.title>.share{
+    position: absolute;
+    top: 0.3%;
+    left: 44%;
+    opacity: 0.7;
+    font-size: 14px;
+    color: #7F4A88;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.main>.give{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.main>.give>.give_left{
+    position: relative; 
+    overflow: hidden;
+}
+.main>.give>.give_left>.give_img{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+.main>.give>.give_left>.give_username{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.give>.give_left>.give_time{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    width: 80px;
+    opacity: 0.7;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    width: 100px;
+    overflow: hidden;
+    
+}
+.main>.give>.give_left>.thumb{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.main>.give>.give_left>.thumb_number{
+    position: absolute;
+    top: 22%;
+    left: 27.5%;
+}
+.main>.give>.give_left>.saw{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.main>.give>.give_left>.saw_number{
+    position: absolute;
+    top: 22%;
+    left: 38%;
+}
+.main>.give>.give_comment{
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.main>.photo{
+    width: 100%;
+    height: 375px;
+    border: 1px solid red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.main>.photo>img{
+    width: 100%;
+    height: 100%;
+}
+.main>.keynote{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    text-indent: 2em;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.main>.content{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    text-indent: 2em;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.main>.line{
+    width: 100%;
+    opacity: 0.5;
+    border: 1px solid #7F4A88;  
+    margin-top: 40px;
+}
+.main>.comment_title{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.comment{
+    width: 100%;
+    height: 103px;
+    resize: none;
+    margin-top: 20px;
+    background: rgba(127, 74, 136, .2);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+textarea::-webkit-input-placeholder{
+    opacity: 0.7;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    text-indent: 1em;
+}
+.main>.get{
+    position: relative;
+    left: 91%;
+    background: #7F4A88;
+    border-radius: 4px;
+    width: 88px;
+    height: 36px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.main>.comment_titles{
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.lines{
+    width: 100%;
+    opacity: 0.5;
+    border: 0.5px solid #7F4A88;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.all>.loading{
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    margin-top: 30px;
+}
+.all>.loading>span{
+    position: relative;
+    top: -6px;
+    opacity: .5;
+}
+footer{
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+footer>.lines{
+    border: 0.5px solid #7F4A88;  
+}
+footer>.write{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

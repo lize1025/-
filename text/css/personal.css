@@ -1,0 +1,313 @@
+*{margin:0;padding:0}
+body{
+    position: relative;
+}
+.all{
+    height:auto;
+    width: 100%;
+    position: relative;
+}
+header{
+    height:358px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.top{
+    height: 60px;
+    width: 100%px;
+    position: relative;
+    background-color: rgba(127,74,136);
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.20);
+}
+.top>.logo{ 
+    height: 26px;
+    width: 78px;
+    color: white;
+    position: absolute;
+    left: 2.7%;
+    top:25%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+}
+.top>.xian{
+    border: 0.5px solid #FFFFFF;
+    height: 24px;
+    position: absolute;
+    left: 9%;
+    top: 32%;
+}
+.top>.title{
+    height: 33px;
+    width: 109px;
+    position: absolute;
+    left: 10.4%;
+    top: 24%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.top>.user{
+    position: absolute;
+    left: 80%;
+    top: 35%;
+}
+.top>.user>img{
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -5px; 
+}
+.top>.user_id{
+    position: absolute;
+    left: 82%;
+    top: 33%;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.top>.more{
+    position: absolute;
+    left: 86%;
+    top: 37%;
+}
+.top>.write{
+    position: absolute;
+    left: 92.8%;
+    top: 32%;
+}
+.top>.write_img{
+    position: absolute;
+    left: 91%;
+    top: 35%;
+}
+.top>.write>span{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;  
+}
+.setting{
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.10);
+    width: 109px;
+    height: 129px;
+    position: absolute;
+    left: 80.5%;
+    top: 7.6%;
+    text-align: center;
+    line-height: 41px;
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+.setting>.center>span,.setting>.settings>span,.setting>.quit>span{
+    vertical-align: middle;
+}
+.setting>.center>img,.setting>.settings>img,.setting>.quit>img{
+    vertical-align: middle;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-width:0 6px 6px;
+    border-style:solid;
+    border-color:transparent transparent #fff;/*透明 透明  灰*/
+    position: absolute;
+    left: 86%;
+    top: 6.9%;
+    display: none;
+
+}
+.show{
+    background: url("../img/bg_center6.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    
+}
+.show>.img{
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -45.5px 0 0 -45.5px;
+    overflow: hidden;
+}
+.show>.img>.bigimg{
+    width: 100%;
+    height: 100%;
+}
+.show>.id{
+    position: absolute;
+    left: 48.9%;
+    top:68%;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.show>.detail{
+    width: 105px;
+    position: absolute;
+    left: 46.8%;
+    top:76%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.show>.detail>.city{
+    float: left;
+}
+.show>.detail>.con{
+    float:right;
+}
+.main{
+    background: #FFFFFF;
+    border: 1px solid #F0E9F1;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+    border-radius: 2px;
+    height: 241px;
+    width: 69%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+}
+.main>.main_left{
+    width: 37%;
+    height: 100%;
+    background: black;
+    float: left;
+}
+.main>.main_left>.main_img{
+    width: 100%;
+    height: 100%;
+}
+.main>.main_right{
+    width: auto;
+    height: 100%;
+}
+.main>.main_right>.main_title{
+    position: relative;
+    top: 12%;
+    left: 4%;
+}
+.main>.main_right>.main_title>span{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.main_right>.main_content{
+    position: relative;
+    top: 18%;
+    left: 4%;
+    width: 90%;
+}
+.main>.main_right>.main_content>span{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.main>.main_right>.give{
+    position: absolute;
+    width: 55%;
+    left: 41.5%;
+    top: 65%;
+}
+.main>.main_right>.give>.give_left>.give_img{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: black;
+}
+.main>.main_right>.give>.give_left>.give_username{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+.main>.main_right>.give>.give_left>.give_time{
+    opacity: 0.7;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.main>.main_right>.give>.give_right{
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+.main>.main_right>.give>.give_right>.thumb{
+    position: absolute;
+    left: -40px;
+}
+.main>.main_right>.give>.give_right>.thumb_number{
+    position: absolute;
+    left: -15px;
+    opacity: 0.7;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.main>.main_right>.give>.give_right>.saw{
+    position: absolute;
+    left: 35px;
+    top: 3px;
+}
+.main>.main_right>.give>.give_right>.saw_number{
+    position: absolute;
+    left: 65px;
+    opacity: 0.7;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+.all>.loading{
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    margin-top: 20px;
+}
+.all>.loading>span{
+    position: relative;
+    top: -6px;
+    opacity: .5;
+}
+
+footer{
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+footer>.lines{
+    border: 0.5px solid #7F4A88;  
+}
+footer>.write{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
